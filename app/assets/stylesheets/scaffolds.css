@@ -135,13 +135,21 @@ h3 {
   background-color: var(--global-secondary-bgc);
   border: solid var(--global-bw) var(--global-secondary-bgc-hover);
   border-radius: var(--global-br);
-  height: 2em;
-  padding: 0 .75em;
+  padding: 10px .75em;
 }
 
 .button_to button[type="submit"]:hover,
 .button_to input[type="submit"]:hover {
   background-color: var(--global-secondary-bgc-hover);
+}
+
+/****************
+nav-buttons
+****************/
+
+.nav-buttons {
+  display: flex;
+  gap: 8px;
 }
 
 /****************
