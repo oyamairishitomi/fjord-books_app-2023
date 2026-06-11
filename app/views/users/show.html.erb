@@ -1,5 +1,21 @@
-<h1>Users#show</h1>
-<p><%= @user.email %></p>
-<p><%= @user.postal_code %></p>
-<p><%= @user.address %></p>
-<p><%= @user.introduction %></p>
+<h1><%= User.model_name.human %>の詳細</h1>
+
+<p>
+  <strong><%= User.human_attribute_name(:email) %>:</strong>
+  <%= @user.email %>
+</p>
+
+<p>
+  <strong><%= User.human_attribute_name(:postal_code) %>:</strong>
+  <%= @user.postal_code %>
+</p>
+
+<p>
+  <strong><%= User.human_attribute_name(:address) %>:</strong>
+  <%= @user.address %>
+</p>
+
+<p>
+  <strong><%= User.human_attribute_name(:introduction) %>:</strong>
+  <%= @user.introduction %>
+</p>
