@@ -28,9 +28,9 @@ ActiveRecord::Schema[7.0].define(version: 2026_05_28_055730) do
     t.datetime "remember_created_at"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.string "postal_code"
-    t.string "address"
-    t.text "introduction"
+    t.string "postal_code", default: "", null: false
+    t.string "address", default: "", null: false
+    t.text "introduction", default: "", null: false
     t.index ["email"], name: "index_users_on_email", unique: true
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
   end

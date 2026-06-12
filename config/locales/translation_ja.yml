@@ -2,7 +2,9 @@ ja:
   activerecord:
     models:
       book: 本
-      user: ユーザー
+      user:
+        one: ユーザー
+        other: ユーザー
 
     attributes:
       book:
