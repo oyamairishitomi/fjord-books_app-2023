@@ -226,7 +226,6 @@ en:
       title_index: "%{name}"
       title_new: "New %{name}"
       title_edit: "Editing %{name}"
-      title_show: "%{name} Details"
       error: error
       validation_error: "%{errors} prohibited this %{name} from being saved"
   controllers:
