@@ -233,3 +233,7 @@ en:
       notice_create: "%{name} was successfully created."
       notice_update: "%{name} was successfully updated."
       notice_destroy: "%{name} was successfully destroyed."
+  layouts:
+    application:
+      edit_user: Edit user
+      sign_out: Sign out
